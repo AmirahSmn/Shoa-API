@@ -6,6 +6,6 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer(app);
 
-server.listen(port, hostname () => {
+server.listen(port, hostname, () => {
   console.log('on public ip');
 });
